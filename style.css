@@ -1,0 +1,75 @@
+:root{
+    --Green: hsl(75, 94%, 57%);
+
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%) ;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color: var(--OffBlack);
+    color: var(--White);
+    font-family:  "Inter", sans-serif;
+}
+
+.container{
+    background-color: var(--DarkGrey);
+    min-width: 400px;
+    width: 20%;
+    margin: 10rem auto;
+    border-radius: 9px;
+    display: flex;
+    flex-flow: column;
+    padding: 40px 0px;
+}
+
+.tj-img{
+    border-radius: 1000px;
+    margin: 0 auto;
+}
+
+.titulo{
+    margin: 30px auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.titulo h1{
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+.titulo p{
+    color: var(--Green);
+}
+button{
+    width: 80%;
+    padding: 15px 0px;
+    margin: 8px auto;
+    font-weight: 700;
+    background-color: var(--Grey);
+    border-radius: 8px;
+    border: none;
+    color: var(--White);
+    font-size: 1.6rem;
+}
+
+button:hover{
+    background-color: var(--Green);
+    color: var(--OffBlack);
+    cursor:pointer;
+}
+
+.container p {
+    margin: 0 auto 15px auto;
+}
